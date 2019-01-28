@@ -1,0 +1,5 @@
+{
+    "require": {
+        "flobee/spss": "^3.0"
+    }
+}

@@ -1,0 +1,8 @@
+pspp.jnl
+
+/vendor
+/tmp
+/tests/tmp
+/nbproject/*
+tests/data/pspp.jnl
+/docs/CodeCoverage/

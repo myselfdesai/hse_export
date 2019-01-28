@@ -1,0 +1,71 @@
+[
+    {
+        "name": "flobee/spss",
+        "version": "3.0.0",
+        "version_normalized": "3.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/flobee/spss.git",
+            "reference": "4a0918a7571b28ff09889884dcff2973ba3b589e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/flobee/spss/zipball/4a0918a7571b28ff09889884dcff2973ba3b589e",
+            "reference": "4a0918a7571b28ff09889884dcff2973ba3b589e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-bcmath": "*",
+            "php": "7.2.*"
+        },
+        "require-dev": {
+            "phing/phing": "^2",
+            "phpunit/phpunit": "^7",
+            "squizlabs/php_codesniffer": "^3"
+        },
+        "time": "2018-08-03T17:18:55+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SPSS\\": "src/",
+                "SPSS\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Florian Blasel",
+                "email": "flobee.code@gmail.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Kornienko Vladislav",
+                "email": "vk.tiamo@gmail.com",
+                "role": "origin"
+            },
+            {
+                "name": "Sam Mousa",
+                "email": "sam@mousa.nl",
+                "role": "Developer"
+            }
+        ],
+        "description": "SPSS, PSPP php implementation (read/write .sav files)",
+        "keywords": [
+            ".sav",
+            "cli",
+            "cli-app",
+            "parser",
+            "por",
+            "pspp",
+            "reader",
+            "sav",
+            "spss",
+            "statistics",
+            "writer"
+        ]
+    }
+]
