@@ -88,6 +88,7 @@ $tosca4c = array();
 $lead1 = array();
 $lead2 = array();
 
+
 foreach ($result as $key => $value) {
 
     switch($value['question_id']){
@@ -249,52 +250,52 @@ foreach ($result as $key => $value) {
             break;
 
         #4 Items, each including 3 options assessing shame, guilt and externalisation of blame, starting with: "You break something at work and then hide it".
-        case (int) 66:
+        case (int) 70:
             $tosca1a[] = $value['hse_answer_code']; #You would think: “This is making me anxious. I need to either fix it or get someone else to”.
             break;
-        case (int) 67:
+        case (int) 71:
             $tosca1b[] = $value['hse_answer_code']; #You would think about quitting
             break;
-        case (int) 68:
+        case (int) 72:
             $tosca1c[] = $value['hse_answer_code']; #You would think: “A lot of things are not made very well these days”
             break;
 
 
-        case (int) 69:
+        case (int) 73:
             $tosca2a[] = $value['hse_answer_code']; #You would feel incompetent
             break;
-        case (int) 70:
+        case (int) 74:
             $tosca2b[] = $value['hse_answer_code']; #You would think: “There are never enough hours in the day”
             break;
-        case (int) 71:
+        case (int) 75:
             $tosca2c[] = $value['hse_answer_code']; #You would feel: “I deserve to be reprimanded for mismanaging the project”
             break;
 
 
-        case (int) 72:
+        case (int) 76:
             $tosca3a[] = $value['hse_answer_code']; #You would think the company did not like the co-worker
             break;
-        case (int) 73:
+        case (int) 77:
             $tosca3b[] = $value['hse_answer_code']; #You would keep quiet and avoid the co-worker
             break;
-        case (int) 74:
+        case (int) 78:
             $tosca3c[] = $value['hse_answer_code']; #You would feel unhappy and eager to correct the situation 
             break;
 
-        case (int) 75:
+        case (int) 79:
             $tosca4a[] = $value['hse_answer_code']; #You would think your boss should have been more clear about what was expected of you 
             break;
-        case (int) 76:
+        case (int) 80:
             $tosca4b[] = $value['hse_answer_code']; #You would feel as though you want to hide
             break;
-        case (int) 77:
+        case (int) 81:
             $tosca4c[] = $value['hse_answer_code']; #You would think 'I should have recognized the problem and do a better job'
             break;
         
-        case (int) 78:
+        case (int) 82:
             $lead1[] = $value['hse_answer_code'];   #If needed, can you get support and help with your work from your immediate superior?
             break;
-        case (int) 79:
+        case (int) 83:
             $lead2[] = $value['hse_answer_code'];   #If needed, is your immediate superior willing to listen to your work-related problems?
             break;
 
